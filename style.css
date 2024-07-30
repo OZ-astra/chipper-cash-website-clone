@@ -1,0 +1,251 @@
+/** @format */
+
+@font-face {
+	font-family: "graphik-medium";
+	src: url(./fonts/Graphik-Family/Graphik-Medium-Trial.otf);
+}
+
+@font-face {
+	font-family: "graphik-regular";
+	src: url(./fonts/Graphik-Family/Graphik-Regular-Trial.otf);
+}
+
+body {
+	background-color: #202654;
+	color: white;
+}
+
+.root-container {
+	font-family: "graphik-medium";
+}
+
+/* header section */
+
+/* navbar section */
+.site-header {
+	padding: 6% 4%;
+	padding-bottom: 0;
+}
+
+.site-navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 1% 4%;
+	box-sizing: border-box;
+	background-color: #202654;
+	z-index: 100;
+}
+
+.site-logo {
+	width: 102.93px;
+}
+
+.nav-links-list {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	list-style: none;
+	gap: 2rem;
+}
+
+.nav-list-item {
+	font-size: 12.8px;
+}
+
+.nav-arrow-list-item {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: white;
+}
+
+.app-download-link {
+	outline: 1px solid rgba(193, 196, 229, 0.5);
+	padding: 12px 19.5px;
+	border-radius: 0.8rem;
+	transition: all 0.25s ease-in-out;
+}
+
+.app-download-link:hover {
+	background-color: #806ce8;
+}
+
+/* hero section */
+.hero-horizontal-sections-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 3.3rem;
+	margin-bottom: 8rem;
+}
+
+.hero-horizontal-sections-container > * {
+	flex: 1;
+}
+
+.hero-description-container {
+	color: #d4d6eb;
+	margin-bottom: 2.5rem;
+}
+
+.hero-description-container p {
+	font-family: "graphik-regular";
+	font-size: 13.93px;
+	line-height: 22.28px;
+}
+
+.hero-app-download-container {
+	display: flex;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+.qr-code-img {
+	width: 148.6px;
+	border-radius: 50%;
+}
+
+.hero-app-download-right-section {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.hero-app-download-right-section > span {
+	font-family: "graphik-regular";
+	font-size: 13.93px;
+}
+
+.platforms-app-download-links-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.5rem;
+}
+
+.platforms-app-download-links-container a {
+	color: #d4d6eb;
+	text-decoration: none;
+}
+
+.platforms-app-download-links-container a span {
+	font-size: 12.38px;
+}
+
+.right-hero-section img {
+	width: 100%;
+}
+
+.benchmarks-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 3rem;
+	align-items: center;
+	margin-bottom: 6rem;
+}
+
+.benchmarks-description-container,
+.figure-title {
+	color: #d4d6eb;
+}
+
+.benchmarks-description-container {
+	position: relative;
+	padding-top: 1rem;
+	font-size: 12.38px;
+}
+
+.benchmarks-description-container::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	content: "";
+	width: 28px;
+	height: 5px;
+	border-radius: 20px;
+	background-color: white;
+}
+
+.benchmark-figures-list {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	gap: 2.5rem;
+}
+
+.benchmark-figures-list-item {
+	display: flex;
+	flex-direction: column;
+	font-family: "graphik-regular";
+	align-items: center;
+}
+
+.figure {
+	font-size: 24.77px;
+}
+
+.figure-title {
+	font-size: 10.83px;
+}
+
+.africa-hero-section {
+	text-align: center;
+	position: relative;
+	height: min-content;
+}
+
+.africa-hero-section h1 {
+	margin-bottom: 3rem;
+}
+
+.africa-hero-section .link-with-line {
+	color: rgb(172, 252, 227);
+}
+
+.link-with-line {
+	font-size: 13.93px;
+	text-decoration: none;
+	position: relative;
+	padding-left: 3%;
+	z-index: 10;
+}
+
+.africa-hero-section .link-with-line::before {
+	background-color: rgb(172, 252, 227);
+}
+
+.link-with-line::before {
+	content: "";
+	display: block;
+	width: 18.57px;
+	height: 3.1px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.africa-hero-img {
+	width: 100%;
+	position: relative;
+	top: -2rem;
+}
+
+/* site main section */
+.countries-card-container {
+	background-color: #f2f2fb;
+}
+
+.card-img-container img {
+	width: 100%;
+}
