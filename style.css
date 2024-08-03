@@ -291,6 +291,8 @@ body {
 	background-color: #6943d9;
 	padding-left: 6%;
 	position: relative;
+	/* height: 379.067px; */
+	align-items: center;
 }
 
 .online-global-card-container > * {
@@ -304,16 +306,24 @@ body {
 .online-global-card-container h2 {
 	font-size: 49.53px;
 	color: rgb(172, 253, 228);
+	margin-bottom: 0;
 }
 
 .online-global-card-container p {
 	font-family: "graphik-regular";
 	font-size: 24.77px;
+	margin-top: 0;
 }
 
 .online-global-card-container .card-img-container {
 	line-height: 0;
-	width: 619.13px;
-	position: absolute;
-	right: -6rem;
+	overflow: hidden;
+	/* width: 619.13px; */
+	/* position: absolute;
+	right: -4rem; */
+}
+
+.online-global-card-container .card-img-container img {
+	width: 132%;
+	transform: translateX(-12%);
 }
