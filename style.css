@@ -160,12 +160,19 @@ body {
 }
 
 .benchmarks-description-container {
-	position: relative;
-	padding-top: 1rem;
 	font-size: 12.38px;
 }
 
 .benchmarks-description-container::before {
+	background-color: white;
+}
+
+.above-stroke {
+	position: relative;
+	padding-top: 1rem;
+}
+
+.above-stroke::before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -174,7 +181,6 @@ body {
 	width: 28px;
 	height: 5px;
 	border-radius: 20px;
-	background-color: white;
 }
 
 .benchmark-figures-list {
@@ -332,7 +338,11 @@ body {
 /* community section */
 .community-section-container {
 	background-color: white;
-	padding-top: 6rem;
+	padding: 6rem 10rem 4rem 3rem;
+}
+
+.community-intro-container {
+	margin-bottom: 4rem;
 }
 
 .community-intro-description-container {
@@ -389,4 +399,92 @@ body {
 .community-banner-img-container:hover .play-icon {
 	transform: scale(1.1) translate(-50%, -50%);
 	transform-origin: center;
+}
+
+.community-ratings-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 14rem;
+}
+
+.community-ratings-container > * {
+	flex: 1;
+}
+
+.community-ratings-summary-container {
+	color: rgba(44, 22, 68, 0.9);
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.community-ratings-summary-container p {
+	font-size: 13.93px;
+}
+
+.ratings-figures-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.community-ratings-summary-container p::before {
+	background-color: rgba(44, 22, 68, 0.9);
+}
+
+.platform-ratings-container p strong {
+	font-size: 49.53px;
+}
+
+.platform-ratings-container a {
+	font-size: 12.38px;
+	text-decoration: none;
+	color: rgba(44, 22, 68, 0.9);
+}
+
+.community-ratings-cards-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.platform-ratings-card {
+	font-family: "graphik-regular";
+	border: 1px solid #c1c4e5;
+	border-radius: 0.8rem;
+	padding: 12.38px;
+	box-shadow: 0 8px 2px rgba(56, 77, 105, 0.1);
+}
+
+.ios-ratings-card {
+	width: 258.03px;
+}
+
+.android-ratings-card {
+	width: 233.27px;
+}
+
+.card-top-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.country-flag-icon {
+	width: 37.15px;
+}
+
+.ratings-comment {
+	color: rgb(9, 11, 14);
+	font-size: 12.38px;
+	line-height: 1.6;
+}
+
+.ratings-card-type-details {
+	color: rgb(73, 98, 131);
+	font-size: 9.29px;
+	margin-bottom: 0;
 }
