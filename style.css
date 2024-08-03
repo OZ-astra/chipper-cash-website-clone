@@ -201,7 +201,7 @@ body {
 .africa-hero-section {
 	text-align: center;
 	position: relative;
-	height: min-content;
+	height: 508px;
 }
 
 .africa-hero-section h1 {
@@ -229,6 +229,7 @@ body {
 	display: block;
 	width: 18.57px;
 	height: 3.1px;
+	border-radius: 20px;
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -242,10 +243,77 @@ body {
 }
 
 /* site main section */
+
+.card-container {
+	display: flex;
+	justify-content: space-between;
+}
+
 .countries-card-container {
 	background-color: #f2f2fb;
+	padding: 18.57px 51.2px 43.34px 51.2px;
+	align-items: center;
+	gap: 2rem;
+}
+
+.countries-card-container .card-description-container {
+	color: rgb(27, 10, 45);
+}
+
+.countries-card-container .card-description-container h2 {
+	font-size: 32.5px;
+	margin-bottom: 0;
+}
+
+.countries-card-container .card-description-container p {
+	font-size: 13.93px;
+	font-family: "graphik-regular";
+	margin-top: 0;
+}
+
+.countries-card-container .card-description-container .link-with-line {
+	padding-left: 6%;
+}
+
+.countries-card-container .card-description-container .link-with-line::before {
+	background-color: rgb(0, 0, 238);
+}
+
+.countries-card-container .card-description-container .h-group {
+	margin-bottom: 4rem;
 }
 
 .card-img-container img {
 	width: 100%;
+}
+
+.online-global-card-container {
+	background-color: #6943d9;
+	padding-left: 6%;
+	position: relative;
+}
+
+.online-global-card-container > * {
+	flex: 1;
+}
+
+.online-global-card-container .card-description-container {
+	max-width: 50%;
+}
+
+.online-global-card-container h2 {
+	font-size: 49.53px;
+	color: rgb(172, 253, 228);
+}
+
+.online-global-card-container p {
+	font-family: "graphik-regular";
+	font-size: 24.77px;
+}
+
+.online-global-card-container .card-img-container {
+	line-height: 0;
+	width: 619.13px;
+	position: absolute;
+	right: -6rem;
 }
