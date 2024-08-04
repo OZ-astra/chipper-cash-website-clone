@@ -836,3 +836,120 @@ body {
 	left: auto;
 	right: 0%;
 }
+
+/* site footer section */
+.site-footer-section {
+	padding: 10rem 5% 2rem 5%;
+}
+
+.top-footer-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-bottom: 1px solid hsla(235, 41%, 83%, 0.2);
+	padding-bottom: 2rem;
+}
+
+.footer-nav-links-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+
+.footer-nav-link {
+	color: rgb(193, 196, 229);
+	font-size: 12.38px;
+	font-family: "graphik-regular";
+	text-decoration: none;
+}
+
+.footer-top-right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 3rem;
+}
+
+.footer-top-right h3 {
+	font-size: 20.12px;
+	margin-top: 0;
+}
+
+.footer-support-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 110%;
+	gap: 1rem;
+}
+
+.footer-support-container .link-with-line {
+	color: rgb(172, 252, 227);
+	padding-left: 9%;
+}
+
+.footer-support-container .link-with-line::before {
+	background-color: rgb(172, 252, 227);
+}
+
+.footer-support-container p {
+	margin: 0;
+	font-size: 12.38px;
+	font-family: "graphik-regular";
+	color: rgb(193, 196, 229);
+	border-left: 1px solid rgb(193, 196, 229);
+	padding-left: 1rem;
+}
+
+/* bottom footer section */
+.bottom-footer-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-top: 2rem;
+}
+
+.copywrite-description-container p:first-child,
+.availability-description {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.bottom-footer-section :is(p, span) {
+	font-size: 12.38px;
+	color: rgb(193, 196, 229);
+	font-family: "graphik-regular";
+}
+
+.copywrite-description-container p:last-child {
+	margin-top: 0.2rem;
+}
+
+.footer-social-media-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+
+.footer-social-media-container .social-media-links-list {
+	gap: 1rem;
+	align-items: flex-start;
+	margin: 0;
+}
+
+.footer-social-media-container .social-media-link {
+	color: #a3a6d8;
+	text-decoration: none;
+	line-height: unset;
+	width: unset;
+	font-size: 1.2rem;
+	transition: all 0.25s ease-in-out;
+}
+
+.footer-social-media-container .social-media-link:hover {
+	color: #e0e1f2;
+}
