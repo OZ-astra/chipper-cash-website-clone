@@ -32,7 +32,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 2rem;
+	margin-bottom: 1.2rem;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -52,7 +52,7 @@ body {
 	justify-content: space-between;
 	padding: 0;
 	list-style: none;
-	gap: 2rem;
+	gap: 1.2rem;
 }
 
 .nav-list-item {
@@ -246,7 +246,7 @@ body {
 .africa-hero-img {
 	width: 100%;
 	position: relative;
-	top: -2rem;
+	top: -1.2rem;
 }
 
 /* site main section */
@@ -260,7 +260,7 @@ body {
 	background-color: #f2f2fb;
 	padding: 18.57px 51.2px 43.34px 51.2px;
 	align-items: center;
-	gap: 2rem;
+	gap: 1.2rem;
 }
 
 .countries-card-container .card-description-container {
@@ -416,7 +416,7 @@ body {
 	color: rgba(44, 22, 68, 0.9);
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 1.2rem;
 }
 
 .community-ratings-summary-container p {
@@ -487,4 +487,128 @@ body {
 	color: rgb(73, 98, 131);
 	font-size: 9.29px;
 	margin-bottom: 0;
+}
+
+/* say hello card section */
+.say-hello-card-container {
+	background-color: black;
+	background-image: url(./images/say-hello-banner.png);
+	background-position: 100px;
+	background-repeat: no-repeat;
+	background-size: 1390px;
+	padding: 4rem 60% 3rem 5%;
+	text-align: center;
+}
+
+.say-hello-card-container h2 {
+	font-size: 32.5px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.say-hello-card-container p {
+	font-size: 13.93px;
+	font-family: "graphik-regular";
+	line-height: 1.5;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.social-media-links-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	gap: 24.77px;
+}
+
+.social-media-link {
+	display: block;
+	line-height: 0;
+	width: 30.95px;
+}
+
+.social-media-link img {
+	width: 100%;
+	opacity: 0.8;
+	filter: grayscale(100%);
+	transition: all 0.25s ease-in-out;
+}
+
+.social-media-link img:hover {
+	opacity: 1;
+	filter: grayscale(0%);
+}
+
+/* featured-in section */
+.section-featured-in {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 49.53px;
+	padding: 3rem 5%;
+}
+
+.section-featured-in > * {
+	flex: 1;
+}
+
+.featured-description-container h2 {
+	font-size: 32.5px;
+	color: #1b0a2d;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.featured-description-container p {
+	font-family: "graphik-regular";
+	font-size: 13.93px;
+	line-height: 1.6;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+}
+
+.featured-description-container p a {
+	color: rgba(44, 22, 68, 0.9);
+}
+
+.featured-description-container .link-with-line {
+	color: rgb(105, 69, 216);
+	padding-left: 6%;
+}
+
+.featured-description-container .link-with-line::before {
+	background-color: rgb(105, 69, 216);
+}
+
+.featured-description-container a {
+	text-decoration: none;
+}
+
+.featured-in-logos-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2.5rem;
+}
+
+.logos-list-item {
+	padding: 18.57px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.logos-list-item img {
+	opacity: 0.32;
+	filter: grayscale(100%);
+	max-height: 27.86px;
+	transition: all 0.25s ease-in-out;
+}
+
+.logos-list-item img:hover {
+	opacity: 1;
+	filter: grayscale(0%);
 }
