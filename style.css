@@ -241,12 +241,21 @@ body {
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%);
+	transition: all 0.2s ease-in-out;
+}
+
+.link-with-line:hover::before {
+	width: 3.1px;
+	height: 18.57px;
+}
+
+.africa-hero-img-container {
+	line-height: 0;
+	margin-top: -2rem;
 }
 
 .africa-hero-img {
 	width: 100%;
-	position: relative;
-	top: -1.2rem;
 }
 
 /* site main section */
@@ -641,8 +650,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 3rem 5%;
+	padding-bottom: 20rem;
 	gap: 10rem;
-	height: 70vw;
 }
 
 .africa-football-section > * {
